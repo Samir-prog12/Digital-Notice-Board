@@ -1,0 +1,26 @@
+# Spring Boot
+Back-End/target/
+
+# React / Vite
+Front-End/node_modules/
+Front-End/dist/
+
+# Environment variables and secrets
+.env
+.env.*
+!.env.example
+Back-End/.env
+Back-End/.env.*
+Front-End/.env
+Front-End/.env.*
+!Back-End/.env.example
+!Front-End/.env.example
+
+# IDE files
+.idea/
+.vscode/
+*.iml
+
+# OS files
+.DS_Store
+Thumbs.db
